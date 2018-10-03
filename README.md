@@ -14,5 +14,6 @@ Get personalised movie suggestions –– Displays a list of recommended movies 
 
 Delete account –– Users can delete their account
 
-Log out –– Log out from the system. Persistence is in play for when the user runs the program again at a later time
+Log out –– Log out from the system. Persistence is in play for when the user runs the program again at a later time.
 
+NB: This isnt the completed project.
