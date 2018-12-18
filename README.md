@@ -1,3 +1,5 @@
+**Movie Recomender**
+
 The main menu offers the following options;
 
 Add a new movie –– The user is prompted for Movie(title, release year, IMDb url). Users are not allowed to add movies already found in the database. User is also required to rate every movie they add.
