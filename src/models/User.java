@@ -6,7 +6,7 @@ import com.google.common.base.Objects;
 
 public class User
 {
-
+	//variables
 	public long userId;
 	public String firstName;
 	public String lastName;
@@ -14,7 +14,7 @@ public class User
 	public int age;
 	public String occupation;
 	
-
+	//constructor
 	public User(long userId, String firstName, String lastName, int age, char gender, String occupation)
 	{
 		this.userId = userId;
@@ -25,7 +25,7 @@ public class User
 		this.occupation = occupation;
 	}
 
-
+	//toString
 	@Override
 	public String toString()
 	{
