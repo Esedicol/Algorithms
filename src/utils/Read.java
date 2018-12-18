@@ -30,12 +30,12 @@ public class Read {
 			String[] userTokens = userDetails.split(delims);
 			if (userTokens.length == 7)
 			{
-				long userId			= Long.parseLong(userTokens[0]);
-				String firstName	= userTokens[1];
-				String lastName		= userTokens[2];
-				int age				= Integer.parseInt(userTokens[3]);
-				char gender			= userTokens[4].charAt(0);
-				String occupation	= userTokens[5];
+				Long userId = Long.parseLong(userTokens[0]);
+				String firstName = userTokens[1];
+				String lastName	 = userTokens[2];
+				int age = Integer.parseInt(userTokens[3]);
+				char gender = userTokens[4].charAt(0);
+				String occupation = userTokens[5];
 
 				users.add(new User(userId, firstName, lastName,  age, gender, occupation));
 			}			
